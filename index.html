@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="geral">
+      <header>
+        <h1>Calculadora Básica</h1>
+      </header>
+
+      <div id="form">
+        <input
+          type="number"
+          id="n1"
+          placeholder="Digite o primeiro numero"
+        /><br /><br />
+        <select id="selector">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="x">x</option>
+          <option value="/">/</option>
+          <option value="%">%</option></select
+        ><br /><br />
+        <input
+          type="number"
+          id="n2"
+          placeholder="Digite o segundo numero"
+        /><br /><br />
+        <button onclick="calcular()">Calcular</button>
+      </div>
+      <div>
+        <h3 id="resultado"></h3>
+      </div>
+    </div>
+
+    <footer>
+      <div id="autor">
+        <p class="texto">Feito por:</p>
+        <abbr title="github.com/coderArtur"
+          ><a href="https://github.com/coderArtur" target="_blank"
+            ><p id="autor">Artur Lago</p></a
+          ></abbr
+        >
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/script.js"></script>
+</html>

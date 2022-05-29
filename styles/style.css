@@ -1,0 +1,82 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.geral {
+  margin-block: 2rem;
+  padding-inline: 2.2rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid hsl(127, 74%, 26%);
+  border-radius: 0.8rem;
+  background-color: rgb(252, 252, 252);
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: hsl(127, 75%, 30%);
+  font-weight: bolder;
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid green;
+  border-radius: 0.2rem;
+}
+
+#selector {
+  width: 3rem;
+  height: 1.5rem;
+  border: 2px solid green;
+  border-radius: 0.2rem;
+}
+
+#form {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  height: 2rem;
+  background-color: hsl(127, 89%, 40%);
+  color: white;
+  font-weight: bolder;
+  border: 2px solid hsl(120, 100%, 25%);
+  border-radius: 0.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(120, 97%, 30%);
+}
+
+p.texto {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.78rem;
+  font-weight: 550;
+}
+
+p {
+  color: hsl(204, 100%, 64%);
+  font-size: 0.78rem;
+  font-weight: 550;
+}
+
+#autor {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.3rem;
+}
