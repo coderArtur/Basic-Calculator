@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   border: 2px solid hsl(127, 74%, 26%);
   border-radius: 0.8rem;
-  background-color: rgb(252, 252, 252);
+  background-color: rgb(250, 250, 250);
 }
 
 h1 {
@@ -40,6 +40,7 @@ input {
 #selector {
   width: 3rem;
   height: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
   border: 2px solid green;
   border-radius: 0.2rem;
 }
